@@ -10,6 +10,7 @@ Welcome to the Alyconr React Blog project! This is a simple blog application bui
   - [Installation](#installation)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
+- [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -123,7 +124,17 @@ The `react-blog-jsonserver` directory contains the following subdirectories:
 ├──  package-lock.json
 └── package.json
 ```
+## API Endpoints
 
+The Alyconr React Blog project exposes the following API endpoints:
+
+```bash	
+   GET /api/blogs
+   GET /api/blogs/:id
+   POST /api/blogs
+   PUT /api/blogs/:id
+   DELETE /api/blogs/:id
+```
 ## Technologies Used
 
 The Alyconr React Blog project uses the following technologies and libraries:
