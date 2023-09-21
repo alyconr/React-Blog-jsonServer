@@ -11,6 +11,7 @@ Welcome to the Alyconr React Blog project! This is a simple blog application bui
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [API Endpoints](#api-endpoints)
+- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -135,6 +136,16 @@ The Alyconr React Blog project exposes the following API endpoints:
    PUT /api/blogs/:id
    DELETE /api/blogs/:id
 ```
+
+## Deployment
+
+The Alyconr React Blog project is deployed tO Netlify.
+The Api is deployed to Render.com.
+
+<div align="center">
+<img src="./public/Diagrama sin título.drawio.png" alt="netlify" style="width: 70%;"/>  
+</div>
+
 ## Technologies Used
 
 The Alyconr React Blog project uses the following technologies and libraries:
