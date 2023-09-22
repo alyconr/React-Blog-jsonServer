@@ -391,4 +391,13 @@
     margin: 20px;
     grid-gap: 60px;
   }
+
+  .blog-details {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .edit {
+    width: 80%;
+  }
 }
