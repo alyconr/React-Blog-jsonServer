@@ -15,7 +15,7 @@ const Create = () => {
 
     setLoading(true);
 
-    fetch('https://blog-api-service-citl.onrender.com/blogs', {
+    fetch('https://blog-api-service-citl.onrender.com/blogs ', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(blog),
@@ -66,9 +66,9 @@ const Create = () => {
           </select>
         </label>
         {loading ? (
-          <button type="button" disabled>Adding Blog...</button>
+          <button type="submit" disabled>Adding Blog...</button>
         ) : (
-          <button type="button">Add Blog</button>
+          <button type="submit">Add Blog</button>
         )}
         {successMessage && <p>{successMessage}</p>}
         {' '}
