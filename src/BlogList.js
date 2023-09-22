@@ -11,10 +11,15 @@ const BlogList = ({ blogs, title }) => (
     <div className="blog-list">
       {blogs.map((blog) => (
         <div className="blog-preview" key={blog.id}>
-          <h2>{blog.title}</h2>
+          <h2>
+            {blog.title}
+            {' '}
+          </h2>
           <p>
             written by
-            {blog.author}
+            {' '}
+            <span>{blog.author}</span>
+
           </p>
           <button type="button" className="btn">
             <Link className="btn" to={`/blogs/${blog.id}`}>

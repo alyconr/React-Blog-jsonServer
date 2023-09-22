@@ -101,9 +101,20 @@
 
 .blog-preview p {
   font-size: 14px;
-  color: #161617;
+  color: #080808;
   margin-bottom: 10px;
   font-weight: bold;
+}
+
+.create span {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #2896df;
+  font-weight: bold;
+}
+
+.blog-preview:hover span {
+  color: #f5f5f5;
 }
 
 .blog-details:hover {
@@ -157,13 +168,6 @@
   padding: 6px 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-}
-
-.create span {
-  font-size: 15px;
-  margin-top: 10px;
-  color: #2896df;
-  font-weight: bold;
 }
 
 .create button {
