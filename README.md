@@ -2,6 +2,8 @@
 
 Welcome to the Alyconr React Blog project! This is a simple blog application built using React, React Router, and JSON Server as the API backend, hosted on Render.com. This README file will guide you through setting up and running the project, as well as provide an overview of the main goals and features of this application.
 
+The first get request method can take one minute or longer to retrieve the necessary data and render the blog.
+
 
 
 ## Table of Contents
